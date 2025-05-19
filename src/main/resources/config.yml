@@ -1,3 +1,9 @@
+# Основные настройки
+language: ru
+settings:
+  block-command-blocks: true
+
+# Заблокированные команды
 blocked-commands:
   - ban
   - ban-ip
@@ -16,7 +22,31 @@ blocked-commands:
   - save-on
   - timings
   - kill
-  - minecraft:kill
 
+# Белый список
 allowed-players:
-  - Admin # change to your nickname there
+  - Admin
+
+# Локализации
+messages:
+  ru:
+    op-grant: "&6Вы получили OP-статус с ограниченными правами!"
+    command-blocked: "&cЭта команда заблокирована!"
+    player-added: "&aИгрок %s добавлен в белый список!"
+    player-exists: "&eЭтот игрок уже в белом списке!"
+    no-permission: "&cНедостаточно прав!"
+    usage: "&cИспользование: /allowplayer <ник>"
+  
+  en:
+    op-grant: "&6You received OP with restrictions!"
+    command-blocked: "&cThis command is blocked!"
+    player-added: "&aPlayer %s added to whitelist!"
+    player-exists: "&ePlayer already in whitelist!"
+    no-permission: "&cNo permission!"
+    usage: "&cUsage: /allowplayer <name>"
+
+# Логирование
+logging:
+  console: true
+  file: false
+  max-file-size: 10MB
