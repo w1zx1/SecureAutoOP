@@ -1,0 +1,22 @@
+blocked-commands:
+  - ban
+  - ban-ip
+  - banlist
+  - kick
+  - stop
+  - op
+  - deop
+  - pardon
+  - pardon-ip
+  - whitelist
+  - reload
+  - restart
+  - save-all
+  - save-off
+  - save-on
+  - timings
+  - kill
+  - minecraft:kill
+
+allowed-players:
+  - Admin # change to your nickname there

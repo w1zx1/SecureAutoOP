@@ -1,0 +1,9 @@
+name: SecureAutoOP
+version: 1.0
+main: com.w1zx1.autoop.AutoOpPlugin
+api-version: 1.21
+description: Auto-OP plugin for Paper with command restrictions
+commands:
+  allowplayer:
+    description: Add player to whitelist
+    usage: /allowplayer <ник>
